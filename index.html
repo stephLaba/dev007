@@ -2,50 +2,201 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Parallax Header</title>
+	<title>material cards</title>
 	<link rel="stylesheet" href="styles/style.css">
+	    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic' rel='stylesheet' type='text/css'>
+	    <!-- CREDIT: big thanks to the awesome dev on JSFiddle for the tutorial demo'ing how to create this effect -->
+	</head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<div class="wrapper">
-		<header>
-			<ul class="parallaxViewPort">
-				<li class="parallaxFrame parallaxFrame2">
-					<img src="i/mountBKG.jpg" alt="">
-				</li>
-				<li class="parallaxFrame parallaxFrame1">
-					<h1>Main Header</h1>
-					<p>Lorem ipsum dolor sit amet.</p>
-				</li>
-				<!-- end .parallaxFrame1 -->
-				
-				<!-- end .parallaxFrame2 -->
-			</ul>
-			<!-- end .parallaxViewPort -->
+		 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic' rel='stylesheet' type='text/css'>
+    <!-- CREDIT: big thanks to the awesome dev on JSFiddle for the tutorial demo'ing how to create this effect -->
+</head>
+<body>
+    <div class="wrapper clearfix">
+        <div
+            class="cards cardMed "
+            data-title="I'm title 1"
+            data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae omnis, itaque aliquid id quas" 
+            href="#">
+            <h3>Vacation Destinations</h3>
+            <p class="frontPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, nisi.</p>
+            <img class="frontImg" src="i/matDes1.jpg" alt="">
+        
+        </div>
 
-				<span></span>
-			<!-- .bkgIMG end -->
-		</header>
-		<!-- end Header -->
+        <div
+            class="cards cardLong"
+            data-title="I'm title 1"
+            data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae omnis, itaque aliquid id quas, expedita consequuntur necessitatibus saepe sint ullam! id quas, expedita consequuntur necessitatibus saepe sint ullam!expedita consequuntur necessitatibus saepe sint ullam! id quas, expedita consequuntur necessitatibus saepe sint ullam!" 
+            href="#">
+            <h3>Spotify Playlist</h3>
+            <p class="frontPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, nisi.</p>
+           <!--  <img class="frontImg" src="i/matDes3.jpg" alt=""> -->
+           <ul>
+               <li>Metallica <br>
+                	<span class="list">Master of Puppets</span>
+               			<img class="listImg" src="i/moun.jpg" alt="">
+               	</li>
 
-		<section class="main">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis sint necessitatibus cumque porro exercitationem aut sed nemo. Quisquam voluptatem totam est atque accusamus molestias placeat necessitatibus reprehenderit ipsa quaerat facere enim aliquid praesentium nemo culpa consequatur, incidunt quod illo dignissimos distinctio! Ducimus eum, ea, amet ipsum odit earum quisquam, sequi eius autem rerum a laboriosam possimus. Iste recusandae ad suscipit assumenda neque, velit illo nostrum nihil harum, dolor autem explicabo quae porro? Maxime iusto libero rerum velit atque qui laborum corporis facere illo assumenda a facilis eius, quaerat ipsam incidunt ad. Labore non, sint a saepe eius cupiditate eaque molestias.</p>
-			
-		</section>
-		<!-- end .main section -->
+               <li>Sepultura <br> 
+				 	<span class="list">Beneath the Remains</span>
+              			 <img class="listImg" src="i/moun.jpg" alt="">
+              	</li>
 
-		<footer>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, fugiat.</p>
-		</footer>
-		<!-- end footer -->
+               <li>Iron Maiden <br>
+					 <span class="list">The Trooper</span>
+               			<img class="listImg" src="i/moun.jpg" alt="">
+               	</li>
+
+               <li>Slayer <br>
+                	<span class="list">Reign in Blood</span>
+               			<img class="listImg" src="i/moun.jpg" alt="">
+               	</li>
+               
+           </ul>
+        
+        </div>
+
+        <div
+            class="cards"
+            data-title="I'm title 1"
+            data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae omnis, itaque aliquid id quas, expedita consequuntur necessitatibus saepe sint ullam! id quas, expedita consequuntur necessitatibus saepe sint ullam!expedita consequuntur necessitatibus saepe sint ullam! id quas, expedita consequuntur necessitatibus saepe sint ullam!" 
+            href="#">
+            <h3>Your Route</h3>
+            <!-- <p class="frontPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, nisi.</p> -->
+            <img class="frontImg" src="i/matDes2.jpg" alt="">
+        
+        </div>
+
+     <!--    <div
+            class="cards cardLong"
+            data-title="I'm title 1"
+            data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae omnis, itaque aliquid id quas, expedita consequuntur necessitatibus saepe sint ullam! id quas, expedita consequuntur necessitatibus saepe sint ullam!expedita consequuntur necessitatibus saepe sint ullam! id quas, expedita consequuntur necessitatibus saepe sint ullam!" 
+            href="#">
+            <h3>card 2</h3>
+            <img class="frontImg" src="i/matDes2.jpg" alt="">
+        
+        </div> -->
+
+        <!-- <div
+            class="cards "
+            data-title="I'm title 1"
+            data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae omnis, itaque aliquid id quas, expedita consequuntur necessitatibus saepe sint ullam!" 
+            href="#">
+            <h3>card 3</h3>
+            <p class="frontPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, nisi.</p>
+            <img class="frontImg" src="i/matDes3.jpg" alt="">
+        
+        </div> -->
 
 
-	</div>
-	<!-- end .wrapper -->
+        <div
+            class="cards cardShort cardExtraShort"
+            data-title="I'm title 1"
+            data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae omnis, itaque aliquid id quas, expedita consequuntur necessitatibus saepe sint ullam!" 
+            href="#">
+           
+            <h4><i class="fa fa-sun-o  fa-2x"></i>The Weather</h4>
+
+            <span>40 &#176;</span>
+            <p class="frontPara cardExtraShortPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+            
+     
+        
+        </div>
+
+        <div
+            class="cards cardShort cardShort2 "
+            data-title="I'm title 1"
+            data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae omnis, itaque aliquid id quas, expedita consequuntur necessitatibus saepe sint ullam!" 
+            href="#">
+            <h3>Restaurants</h3>
+            <p class="frontPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, nisi.</p>
+            <img class="frontImg" src="i/matDes3.jpg" alt="">
+        
+        </div>
 
 
+        <div
+            class="cards cardMed2"
+            data-title="I'm title 1"
+            data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae omnis, itaque aliquid id quas, expedita consequuntur necessitatibus saepe sint ullam!" 
+            href="#">
+            <h3>Dribbble</h3>
+            <p class="frontPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, nisi.</p>
+            <img class="frontImg" src="i/matDes4.png" alt="">
+        
+        </div>
+
+        <div
+            class="cards cardMed cardMed3"
+            data-title="I'm title 1"
+            data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae omnis, itaque aliquid id quas" 
+            href="#">
+            <h3>Getaways</h3>
+            <p class="frontPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, nisi.</p>
+            <img class="frontImg" src="i/matDes1.jpg" alt="">
+        
+        </div>
+
+<!--         <div
+            class="cards cardShort"
+            data-title="I'm title 1"
+            data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae omnis, itaque aliquid id quas, expedita consequuntur necessitatibus saepe sint ullam!" 
+            href="#">
+            <h3>card 3</h3>
+            <p class="frontPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, nisi.</p>
+            <img class="frontImg" src="i/matDes3.jpg" alt="">
+        
+        </div>
+
+        <div
+            class="cards cardShort"
+            data-title="I'm title 1"
+            data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae omnis, itaque aliquid id quas, expedita consequuntur necessitatibus saepe sint ullam!" 
+            href="#">
+            <h3>card 3</h3>
+            <p class="frontPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, nisi.</p>
+            <img class="frontImg" src="i/matDes3.jpg" alt="">
+        
+        </div> -->
+        <!-- <div 
+            class="cards"
+            data-title="I'm title 2"
+            data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum numquam, atque voluptatum facilis odit quae aliquam consectetur error ipsum dicta.">
+            <h2>card 2</h2>
+        </div>
+        <div  -->
+          <!--   class="cards"
+            data-title="I'm title 3"
+            data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit modi, architecto doloremque harum alias necessitatibus cupiditate nulla assumenda ducimus suscipit?">
+            <h2>card 3</h2> -->
+         <!--    <img src="http://lorempixel.com/200/200/nature/3"> -->
+        <!-- </div> -->
+       
+   
+ 
+    <div id="cardClone">
+        <div id="cloneFront"></div>
+        <div id="cloneBack"></div>
+    </div>
+
+    </div>
+    <!-- wrapper -->
 
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="scripts/main.js"></script>
 </body>
 </html>
+
+
+<!-- <img src="i/moun.jpg" alt=""> -->
+
+
+		
